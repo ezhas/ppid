@@ -39,5 +39,13 @@ Informasi/data pribadi dikumpulkan dari Pengguna sewaktu Pengguna menggunakan la
   </p>
 </div>
 
+<script>
+window.onscroll = function() {
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    window.AppInventor.setWebViewString("DONE");
+  }
+};
+</script>
+  
 </body>
 </html>
